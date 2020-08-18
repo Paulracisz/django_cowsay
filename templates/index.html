@@ -1,0 +1,14 @@
+<h2>{{Welcome}}</h2>
+{% comment %} Anchor tag with Href of the history {% endcomment %}
+
+<a href="/history"> Top 10 most recent things cow said!</a>
+
+
+<form action="" method="POST"> 
+{% csrf_token %}
+{{ cow_speech.as_p }}
+<input type="submit" value="Click to submit!">
+</form>
+<pre>
+{{ subprocess }}
+</pre>
