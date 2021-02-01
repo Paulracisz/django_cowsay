@@ -1,5 +1,7 @@
 # django_cowsay
 
+![cowsay example](https://iampaulracisz.net/static/media/Cow%20Say%20picture.d62b81e1.png)
+
 <h2> What this project is for </h2>
 <p> This application is a Django database, that uses a terminal package called <strong>Cow-Say</strong> that displays an ASCII cow with a speech bubble containing a user's input. In this way, we have made a webpage that allows you to type into an input field to make the cow say whatever you'd like!</p>
 
